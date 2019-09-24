@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Todo</string>
+
+
+    <!-- Facebook strings -->
+    <string name="facebook_app_id">502406337004558</string>
+    <string name="fb_login_protocol_scheme">fb502406337004558</string>
+    <string name="welcome_to_todo">Welcome to Todo!</string>
+    <string name="there_is_no_todo_right_now_click_button_to_add">There is no todo right now. Click + button to add</string>
+</resources>
