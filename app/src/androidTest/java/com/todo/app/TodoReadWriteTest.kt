@@ -45,7 +45,7 @@ class TodoReadWriteTest {
 
     @Test
     @Throws(Exception::class)
-    fun writeUserAndReadInList() {
+    fun writeTodoAndRead() {
         val todo = Todo(title = "My Title", description = "My description", status = 0)
         todoDao.insertAll(todo)
         val todoItem = todoDao.findByTitle(todo.title)

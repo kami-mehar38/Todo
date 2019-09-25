@@ -87,8 +87,8 @@ class TodoActivity : AppCompatActivity(), TodoAdapter.OnItemDeleteListener {
                 tvNoData.visibility = View.VISIBLE
             } else {
                 tvNoData.visibility = View.GONE
-                todoAdapter.submitList(it.reversed())
             }
+            todoAdapter.submitList(it.reversed())
         })
 
         floatingActionButton.setOnClickListener {
